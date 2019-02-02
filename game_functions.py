@@ -15,7 +15,7 @@ def check_keydown_events(event, ai_settings, screen, fighter, bullets):
         sys.exit()
 
 def shoot_bullet(ai_settings, screen, fighter, bullets):
-    if len(bullets) < ai_settings.bullets.allowed:
+    if len(bullets) < ai_settings.bullets_allowed:
         new_bullet = Bullet(ai_settings, screen, fighter)
         bullets.add(new_bullet)
 
