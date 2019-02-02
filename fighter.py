@@ -5,7 +5,7 @@ class Fighter():
         self.screen = screen
         self.ai_settings = ai_settings
 
-        self.image = pygame.image.load('image')
+        self.image = pygame.image.load('image/fighter.png')
         self.rect = self.image.get_rect()
         self.screen_rect = screen.get_rect()
 
